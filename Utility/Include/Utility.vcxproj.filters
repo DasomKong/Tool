@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Management">
+      <UniqueIdentifier>{eb2f4e63-f02a-4099-a013-b41b55bcefdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Renderer">
+      <UniqueIdentifier>{ce383906-65ed-44b7-8045-0df202c18878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SuperClass">
+      <UniqueIdentifier>{ead89586-ce9a-4bfc-84b1-c3524a07666b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager">
+      <UniqueIdentifier>{032c5a19-fdf3-49e8-a826-a45273690ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Export">
+      <UniqueIdentifier>{b0d013c8-1bc6-4b34-9173-8b3220039be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SuperClass\00. Scene">
+      <UniqueIdentifier>{718bdd93-b94f-4c43-b016-d5abbd51f968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SuperClass\00. Scene\Layer">
+      <UniqueIdentifier>{d8fa9f0e-189d-48e1-a57a-24dff161d17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SuperClass\01. GameObject">
+      <UniqueIdentifier>{3bb6a411-7516-48cd-95ba-53093d92e08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SuperClass\02. Component">
+      <UniqueIdentifier>{6907c977-5ebb-4c9e-8f89-f23d61ef79ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SuperClass\02. Component\Transform">
+      <UniqueIdentifier>{c308a2a7-1f37-457c-ac2a-c6dd228f794c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SuperClass\02. Component\Collider">
+      <UniqueIdentifier>{899ebd70-3382-4feb-aa08-32bf0651625d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SuperClass\02. Component\Collider\Collision">
+      <UniqueIdentifier>{2c911dae-3af6-4256-b60f-cc92f60ebcb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design">
+      <UniqueIdentifier>{d02c9247-2558-4a41-b115-5adbbdfa54a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design\Observer">
+      <UniqueIdentifier>{f35b8252-1ca7-4b7c-9b58-53261c6d3a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design\Observer\Observer">
+      <UniqueIdentifier>{45685145-a5ec-4b07-bb60-9c94c0035d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design\Observer\Subject">
+      <UniqueIdentifier>{8022d52c-8c8d-4b3e-a746-d8c7f5059112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SuperClass\03. Camera">
+      <UniqueIdentifier>{56cb1726-981c-4183-8365-748afd2647fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\CameraMgr">
+      <UniqueIdentifier>{3a20cb76-bcd9-4225-ab7d-f0ac7c1071bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design\Observer\Subject\CameraSubject">
+      <UniqueIdentifier>{c10115b7-3069-4645-86d7-34ef7b2d3d38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Management.h">
+      <Filter>00. Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Renderer.h">
+      <Filter>01. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene.h">
+      <Filter>02. SuperClass\00. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Layer.h">
+      <Filter>02. SuperClass\00. Scene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component.h">
+      <Filter>02. SuperClass\02. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GameObject.h">
+      <Filter>02. SuperClass\01. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Headers\Export_Utility.h">
+      <Filter>99. Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Transform.h">
+      <Filter>02. SuperClass\02. Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Subject.h">
+      <Filter>04. Design\Observer\Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Observer.h">
+      <Filter>04. Design\Observer\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Camera.h">
+      <Filter>02. SuperClass\03. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CameraSubject.h">
+      <Filter>04. Design\Observer\Subject\CameraSubject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CameraMgr.h">
+      <Filter>03. Manager\CameraMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\Management.cpp">
+      <Filter>00. Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Renderer.cpp">
+      <Filter>01. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene.cpp">
+      <Filter>02. SuperClass\00. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Layer.cpp">
+      <Filter>02. SuperClass\00. Scene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component.cpp">
+      <Filter>02. SuperClass\02. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GameObject.cpp">
+      <Filter>02. SuperClass\01. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Transform.cpp">
+      <Filter>02. SuperClass\02. Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Subject.cpp">
+      <Filter>04. Design\Observer\Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Observer.cpp">
+      <Filter>04. Design\Observer\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Camera.cpp">
+      <Filter>02. SuperClass\03. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CameraSubject.cpp">
+      <Filter>04. Design\Observer\Subject\CameraSubject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CameraMgr.cpp">
+      <Filter>03. Manager\CameraMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Headers\Export_Utility.inl">
+      <Filter>99. Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>

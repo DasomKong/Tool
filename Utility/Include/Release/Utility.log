@@ -1,0 +1,13 @@
+﻿  Component.cpp
+  GameObject.cpp
+  Layer.cpp
+  Scene.cpp
+  Management.cpp
+  Renderer.cpp
+  Transform.cpp
+     C:\Users\Huh\Desktop\BrutalDoom\Engine\Utility\Bin\Utility.lib 라이브러리 및 C:\Users\Huh\Desktop\BrutalDoom\Engine\Utility\Bin\Utility.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  All 766 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Utility.vcxproj -> C:\Users\Huh\Desktop\BrutalDoom\Engine\Utility\Bin\Utility.dll
+  Utility.vcxproj -> C:\Users\Huh\Desktop\BrutalDoom\Engine\Utility\Bin\Utility.pdb (Full PDB)
